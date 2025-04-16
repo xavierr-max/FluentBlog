@@ -1,5 +1,12 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
-System.Console.WriteLine("Testando o commit");
-System.Console.WriteLine("Novamente");
-System.Console.WriteLine("E mais uma vez");
+﻿using System;
+
+namespace MyApp
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Hello World!");
+        }
+    }
+}
